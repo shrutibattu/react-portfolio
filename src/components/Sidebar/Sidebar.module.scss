@@ -25,6 +25,7 @@ ul {
 
   &_open {
     top: 0;
+    left: 0;
     opacity: 100%;
     transition: all 0.3s ease-out;
   }

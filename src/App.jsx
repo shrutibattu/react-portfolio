@@ -1,22 +1,18 @@
 import "./App.css";
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
+import Card from "./components/Card/Card";
+import Footer from "./components/Footer/Footer";
+
+import Home from "./containers/Home";
 import Routes from "./containers/Routes";
 
 function App() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
-  const handleSidebarToggle = () => setIsSidebarOpen(!isSidebarOpen);
   return (
     <Router>
-      <Navbar handleSidebarToggle={handleSidebarToggle} />
-      <Sidebar
-        isSidebarOpen={isSidebarOpen}
-        handleSidebarToggle={handleSidebarToggle}
-      />
       <Routes />
+      <Card />
+      <Footer />
     </Router>
   );
 }
