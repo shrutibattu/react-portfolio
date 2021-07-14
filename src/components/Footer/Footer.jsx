@@ -12,19 +12,22 @@ import {
 const Footer = () => {
   return (
     <section className={styles.footer_container}>
-      <div>
+      <div className={styles.skills_container}>
         <h4>Skills</h4>
-
-        <FaHtml5 />
-        <FaCss3 />
-        <FaReact />
-        <FaJava />
+        <div className={styles.skills}>
+          <FaHtml5 />
+          <FaCss3 />
+          <FaReact />
+          <FaJava />
+        </div>
       </div>
 
       <div className={styles.footerlink_items}>
         <h4>Get in touch</h4>
-        <FaLinkedinIn />
-        <FaGithub />
+        <div className={styles.social}>
+          <FaLinkedinIn />
+          <FaGithub />
+        </div>
       </div>
     </section>
   );
