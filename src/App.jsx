@@ -6,12 +6,15 @@ import Footer from "./components/Footer/Footer";
 
 import Home from "./containers/Home";
 import Routes from "./containers/Routes";
+import Punkapi from "./components/Punkapi/Punkapi";
+import Calculator from "./components/Calculator/Calculator";
 
 function App() {
   return (
     <Router>
       <Routes />
-      <Card />
+      <Punkapi />
+      <Calculator />
       <Footer />
     </Router>
   );
