@@ -25,8 +25,13 @@ const Footer = () => {
       <div className={styles.footerlink_items}>
         <h4>Get in touch</h4>
         <div className={styles.social}>
-          <FaLinkedinIn />
-          <FaGithub />
+          <a href="https://github.com/shrutibattu">
+            <FaGithub className={styles.social_icon} />
+          </a>
+
+          <a href="www.linkedin.com/in/shruti-battu">
+            <FaLinkedinIn className={styles.social_icon} />
+          </a>
         </div>
       </div>
     </section>
