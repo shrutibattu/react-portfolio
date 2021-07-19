@@ -6,15 +6,13 @@ import Footer from "./components/Footer/Footer";
 
 import Home from "./containers/Home";
 import Routes from "./containers/Routes";
-import Punkapi from "./components/Punkapi/Punkapi";
-import Calculator from "./components/Calculator/Calculator";
+import Portfolio from "./containers/Portfolio";
 
 function App() {
   return (
     <Router>
       <Routes />
-      <Punkapi />
-      <Calculator />
+      <Portfolio />
       <Footer />
     </Router>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Calculator.module.scss";
+import calculator from "../../images/calculator";
 
 const Calculator = () => {
   return (
@@ -7,8 +8,11 @@ const Calculator = () => {
       <div className={styles.wrapper}>
         <h1 className={styles.heading}>Calculator Project</h1>
         <div className={styles.container}>
-          <p>A small project, built using HTML, CSS and JavaScript. </p>
-          <p>Languages & Tools: HTML,CSS,JavaScript,</p>
+          <a href="https://github.com/shrutibattu/Calculator">
+            <img src={calculator} alt="calculator"></img>
+          </a>
+          <h5>A small project, built using HTML, CSS and JavaScript. </h5>
+          <h5>Languages & Tools: HTML,CSS,JavaScript,</h5>
         </div>
       </div>
     </div>
