@@ -10,11 +10,11 @@ const Home = () => {
   const handleSidebarToggle = () => setIsSidebarOpen(!isSidebarOpen);
   return (
     <>
+      <Navbar handleSidebarToggle={handleSidebarToggle} />
       <Sidebar
         isSidebarOpen={isSidebarOpen}
         handleSidebarToggle={handleSidebarToggle}
       />
-      <Navbar handleSidebarToggle={handleSidebarToggle} />
 
       <HeroSection />
     </>
