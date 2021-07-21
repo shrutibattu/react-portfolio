@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Navbar.module.scss";
+import styles from "./NavBar.module.scss";
 import { FaBars } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link as LinkRoute } from "react-router-dom";
 // import {Link as Linkscrol} from "react-scroll"
 const Navbar = (props) => {
   const { handleSidebarToggle } = props;
@@ -13,25 +13,25 @@ const Navbar = (props) => {
           <div onClick={handleSidebarToggle}>
             <FaBars className={styles.menuicon}></FaBars>
           </div>
-          <Link className={styles.navlogo} to="/">
+          <LinkRoute className={styles.navlogo} to="/">
             Home
-          </Link>
+          </LinkRoute>
 
           <ul className={styles.navmenu}>
             <li className={styles.navitem}>
-              <Link className={styles.navlink} to="about">
+              <LinkRoute className={styles.navlink} to="about">
                 About
-              </Link>
+              </LinkRoute>
             </li>
             <li className={styles.navitem}>
-              <Link className={styles.navlink} to="/portfolio">
+              <LinkRoute className={styles.navlink} to="/portfolio">
                 Portfolio
-              </Link>
+              </LinkRoute>
             </li>
             <li className={styles.navitem}>
-              <Link className={styles.navlink} to="/contact">
+              <LinkRoute className={styles.navlink} to="/contact">
                 Contact
-              </Link>
+              </LinkRoute>
             </li>
           </ul>
         </div>
