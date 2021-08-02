@@ -8,7 +8,7 @@ import styles from "./Home.module.scss";
 
 const Home = () => {
   return (
-    <section>
+    <section className={styles.home}>
       <HeroSection />
       <About />
       <Portfolio />

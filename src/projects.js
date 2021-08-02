@@ -1,6 +1,10 @@
 import calculator from "./images/calculator";
 import game from "./images/game";
 import punkapi from "./images/punkapi";
+import scimx from "./images/scimx";
+import todo from "./images/todo";
+import translator from "./images/translator";
+
 export const projectsArr = [
   {
     title: "Calculator",
@@ -22,6 +26,27 @@ export const projectsArr = [
     description: "",
     image: punkapi,
     link: "https://github.com/shrutibattu/punkapi-app",
+  },
+  {
+    title: "Sci-mx Project",
+    subtitle: "Client project",
+    description: "",
+    image: scimx,
+    link: "https://github.com/nology-tech/sci-mx",
+  },
+  {
+    title: "Translator Project",
+    subtitle: "TDD based project",
+    description: "",
+    image: translator,
+    link: "https://github.com/shrutibattu/Translator",
+  },
+  {
+    title: "Todo-list-App Project",
+    subtitle: "Full Stack Project",
+    description: "",
+    image: todo,
+    link: "https://github.com/shrutibattu/todo-list-app",
   },
 ];
 
