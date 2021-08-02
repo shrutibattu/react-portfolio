@@ -5,9 +5,8 @@ import computer from "../../images/computer.jpg";
 const HeroSection = () => {
   return (
     <div className={styles.herocontainer}>
-      <div className={styles.overlay}>
-        <img className={styles.img} src={computer} alt="computer"></img>
-      </div>
+      <img className={styles.img} src={computer} alt="computer"></img>
+
       <div className={styles.herocontent}>
         <h1 className={styles.title}>Shruti Battu</h1>
         <p className={styles.subtitle}>Web Developer</p>

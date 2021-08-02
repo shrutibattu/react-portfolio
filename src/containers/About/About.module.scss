@@ -1,5 +1,5 @@
 .aboutpage {
-  height: 50vh;
+  height: 80vh;
   margin: 2rem;
   border: 0.5rem solid #14274e;
 }
@@ -7,8 +7,9 @@
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 2rem;
+  height: 70vh;
   //   border: 0.5rem solid #14274e;
 }
 
@@ -17,13 +18,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height: 15rem;
-  width: 22rem;
+  height: 20rem;
+  width: 70%;
 }
 
 .image {
-  height: 15rem;
-  width: 18rem;
+  height: 20rem;
+  width: 30%;
 }
 
 .button {
