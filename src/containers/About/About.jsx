@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./About.module.scss";
 import { ReactComponent as Developer } from "../../images/developer.svg";
-import Shruti from "../../images/Shruti.pdf";
 
 const About = () => {
   return (
@@ -22,7 +21,7 @@ const About = () => {
             | Hosting | REST APIs
           </p>
 
-          <a href={Shruti} target="_blank">
+          <a href="https://drive.google.com/file/d/1zB1yDiXo67G60XLqg9_ZveclXX6vrBDX/view?usp=sharing">
             <button className={styles.button}>Download CV</button>
           </a>
         </div>

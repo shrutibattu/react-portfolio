@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <section id="projects" className={styles.portfolio}>
       <div className={styles.section_container}>
-        <h1>Portfolio</h1>
+        <h1 className={styles.header}>Portfolio</h1>
         <p>Click on the image to see the Project</p>
         <div className={styles.projects_container}>
           {projectsArr.map((project) => (
@@ -23,6 +23,7 @@ const Portfolio = () => {
                     alt=""
                   ></img>
                 </div>
+                <p>{project.description}</p>
               </div>
             </a>
           ))}
