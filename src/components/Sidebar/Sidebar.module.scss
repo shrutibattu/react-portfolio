@@ -49,6 +49,7 @@ ul {
     grid-template-rows: repeat(3, 80px);
     gap: 15px;
     text-align: center;
+
     @media screen and (max-width: 480px) {
       grid-template-rows: repeat(3, 60px);
     }
@@ -61,7 +62,7 @@ ul {
     list-style: none;
   }
   &__link {
-    font-size: 16px;
+    font-size: 2rem;
     border-radius: 50px;
     white-space: nowrap;
     padding: 16px 64px;
