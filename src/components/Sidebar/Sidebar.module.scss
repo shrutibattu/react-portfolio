@@ -63,16 +63,19 @@ ul {
   }
   &__link {
     font-size: 2rem;
+
     border-radius: 50px;
     white-space: nowrap;
     padding: 16px 64px;
     text-decoration: none;
     // list-style: none;
+
     cursor: pointer;
     transition: 0.2s ease-in-out;
     color: #fdf1d6;
 
     &:hover {
+      border: 2px solid #f00946;
       transition: all 0.2 ease-in-out;
     }
   }
